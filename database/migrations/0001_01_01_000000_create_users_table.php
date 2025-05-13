@@ -17,6 +17,12 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('nickname');
+            $table->string('rank')->nullable();
+            $table->string('position')->nullable();
+            $table->string('bio')->nullable();
+            $table->string('avatar_url')->nullable();
+            $table->string('discord_user')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
