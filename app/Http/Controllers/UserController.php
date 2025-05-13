@@ -20,5 +20,6 @@ class UserController extends Controller
         'avatar_url' => 'avatar-url',
         'discord_user' => 'Admin_Discord' 
     ]);
+
 }
 }
