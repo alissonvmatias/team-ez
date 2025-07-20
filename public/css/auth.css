@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #0c1f3f, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login, .right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {
+    text-align: center;
+}
+
+.left-content .title {
+    color: #77ffc0;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.left-content .subtitle {
+    color: #ffffffcc;
+    font-size: 1.3rem;
+    margin-top: 15px;
+}
+
+.card-login {
+    width: 60%;
+    background: #2f2841;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-login > h1 {
+    color: #00ff88;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin: 10px 0;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+
+.textfield > input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px 0 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    background-color: #00ff88;
+    color: #2f2841;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #00cc6e;
+}
+
+.auth-links {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.auth-links a {
+    color: #77ffc0;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.auth-links a:hover {
+    text-decoration: underline;
+}
